@@ -1,0 +1,136 @@
+header .top {
+  position: relative;
+  display: flex;
+  height: 70px;
+  width: 100%;
+  margin-top: 10px;
+  text-transform: uppercase;
+  border-bottom: 2px solid #e6e6e6;
+  border-top: 2px solid #e6e6e6;
+  font-family: "Metropolis";
+}
+header a {
+  text-decoration: none;
+  color: #000;
+}
+header .logo {
+  display: flex;
+  top: 26px;
+  left: 30px;
+  width: 249px;
+  height: 58px;
+  padding: 5px;
+}
+header .contact {
+  position: absolute;
+  display: flex;
+  top: 23px;
+  font-size: 27px;
+  color: #000;
+  left: 55%;
+}
+header .contact span {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  margin-left: 10px;
+}
+header .favourite {
+  position: absolute;
+  display: flex;
+  top: 23px;
+  font-size: 27px;
+  color: #000;
+  left: 65%;
+}
+header .favourite span {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  margin-left: 10px;
+}
+header .account {
+  position: absolute;
+  display: flex;
+  top: 23px;
+  font-size: 27px;
+  color: #000;
+  left: 75%;
+}
+header .account span {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  margin-left: 10px;
+}
+header .shopping-cart {
+  position: absolute;
+  top: 10px;
+  left: 85%;
+  height: 45px;
+  width: 210px;
+  border: 2px solid #e6e6e6;
+  color: #000;
+}
+header .shopping-cart .cart-bg {
+  position: absolute;
+  right: 168.5px;
+  height: 45.8px;
+  width: 40px;
+  border-right: 2px solid #e6e6e6;
+}
+header .shopping-cart .cart-bg .cart-icon {
+  position: absolute;
+  display: inline-block;
+  top: 5px;
+  height: 43px;
+  padding: 4px 6px 0 6px;
+  font-size: 27px;
+}
+header .shopping-cart span {
+  position: absolute;
+  left: 44px;
+  top: 5px;
+  padding: 4px 8px 0 8px;
+  font-size: 14px;
+}
+header .shopping-cart span p {
+  position: absolute;
+  left: 25px;
+  top: 5px;
+}
+header .shopping-cart .arrow-icon {
+  display: inline-block;
+  position: absolute;
+  left: 173px;
+  top: 5px;
+  height: 41px;
+  color: #fff;
+  padding: 4px 6px 0 6px;
+  font-size: 27px;
+}
+header .shopping-cart .arrow-bg {
+  position: absolute;
+  top: 0;
+  left: 170px;
+  width: 39px;
+  height: 45px;
+  border-left: 2px solid #e6e6e6;
+  border-bottom: 2px solid #e6e6e6;
+  background-color: #48ff48;
+}
+header nav {
+  display: flex;
+  justify-content: space-evenly;
+  top: 70px;
+  width: 100%;
+  text-transform: uppercase;
+  font-family: "Metropolis";
+  color: #000;
+  border-bottom: 2px solid #e6e6e6;
+}
+header nav .nav-item {
+  display: flex;
+  top: 50%;
+  font-size: 14px;
+}/*# sourceMappingURL=header.css.map */
