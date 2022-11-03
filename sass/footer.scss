@@ -1,0 +1,38 @@
+body {
+	a {
+		text-decoration: none;
+	}
+}
+main {
+	height: 1500px;
+}
+footer {
+	opacity: 0;
+	.nav-mobile {
+		position: fixed;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		justify-content: space-evenly;
+		bottom: 0;
+		color: #000;
+		background-color: #e6e6e6;
+		z-index: 5;
+		width: 100%;
+		.nav-mobile-item {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			width: 20%;
+			height: 50px;
+			border-left: 1px solid black;
+			border-right: 1px solid black;
+
+		}
+	}
+}
+@media (max-width: 768px) {
+	footer {
+		opacity: 1;
+	}
+}
