@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./css/fonts.css" />
     <link rel="stylesheet" href="./css/header.css" />
     <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./css/main.css" />
 </head>
 
 <body>
@@ -18,22 +19,24 @@
             <div class="logo">
                 <img src="./img/logo.png" alt="Elhurt PLUS">
             </div>
-
+            <div class="logo-mobile">
+                <img src="./img/logo.png" alt="Elhurt PLUS">
+            </div>
             <a href="javascript:void(0)">
                 <div class="contact">
-                    <i class="icon-phone"></i>
+                    <i class="icon icon-phone"></i>
                     <span>kontakt</span>
                 </div>
             </a>
             <a href="javascript:void(0)">
                 <div class="favourite">
-                    <i class="icon-star"></i>
+                    <i class="icon icon-star"></i>
                     <span>ulubione</span>
                 </div>
             </a>
             <a href="javascript:void(0)">
                 <div class="account">
-                    <i class="icon-user"></i>
+                    <i class="icon icon-user"></i>
                     <span>moje <br>
                         konto</span>
                 </div>
@@ -41,16 +44,15 @@
             <a href="javascript:void(0)">
                 <div class="shopping-cart">
                     <div class="cart-bg">
-                        <div class="cart-icon icon-cart"></div>
+                        <div class="icon cart-icon icon-cart"></div>
                     </div>
-
                     <span>twój koszyk
                         <p>3456,00 zł</p>
                     </span>
                     <div class="arrow-bg">
 
                     </div>
-                    <div class="arrow-icon icon-arrow_right"></div>
+                    <div class="icon arrow-icon icon-arrow_right"></div>
                 </div>
             </a>
         </div>
@@ -84,22 +86,49 @@
                 <div class="nav-item">
                     <p>materiały instalacyjne</p>
                 </div>
+            </a>
 
         </nav>
     </header>
-    <main></main>
-    <footer>
-        <nav class="nav-mobile">
-            <div class="nav-mobile-item">
-                <i class="icon-grid"></i>
+    <main>
+        <div class="slider-big slider-background">
+            <button class="arrow left icon-arrow_left"></button>
+            <button class="arrow right icon-arrow_right"></button>
+        </div>
+        <!-- <div class="banner banner-bg left">
+            <div class="banner-text">
+                <p>
+                <h2>pomoc eksperta</h2>
+                </p>
+                <p>
+                <h3>doradzamy</h3>
+                </p>
             </div>
+        </div>
+        <div class="banner middle">
+            <p></p>
+        </div>
+        <div class="banner right">
+            <p></p>
+        </div> -->
+    </main>
+    <div class="nav-mobile">
+        <a href="javascript:void(0)">
+            <div class="nav-mobile-item"><i class="icon-grid"></i></div>
+        </a>
+        <a href="javascript:void(0)">
             <div class="nav-mobile-item"><i class="icon-phone"></i></div>
+        </a>
+        <a href="javascript:void(0)">
             <div class="nav-mobile-item"><i class="icon-star"></i></div>
+        </a>
+        <a href="javascript:void(0)">
             <div class="nav-mobile-item"><i class="icon-user"></i></div>
+        </a>
+        <a href="javascript:void(0)">
             <div class="nav-mobile-item"><i class="icon-cart"></i></div>
-        </nav>
-    </footer>
-
+        </a>
+    </div>
     <script src="./js/index.js"></script>
 </body>
 

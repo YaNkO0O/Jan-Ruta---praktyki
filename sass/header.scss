@@ -1,7 +1,7 @@
 @mixin size {
 	position: absolute;
 	display: flex;
-	top: 50%;
+	top: 25px;
 	color: #000;
 }
 
@@ -10,7 +10,6 @@ body {
 }
 
 header {
-	opacity: 1;
 	.top {
 		position: relative;
 		height: 70px;
@@ -24,6 +23,9 @@ header {
 	a {
 		text-decoration: none;
 		color: #000;
+	}
+	.logo-mobile {
+		opacity: 0;
 	}
 	.icon {
 		font-size: 27px;
@@ -105,7 +107,7 @@ header {
 			position: absolute;
 			left: 44px;
 			top: 5px;
-			padding: 4px 8px 0 8px;
+			padding: 4px 3px 0 8px;
 			font-size: 14px;
 			p {
 				position: absolute;
@@ -128,7 +130,7 @@ header {
 			top: 0;
 			left: 170px;
 			width: 39px;
-			height: 45px;
+			height: 46px;
 			border-left: 2px solid #e6e6e6;
 			border-bottom: 2px solid #e6e6e6;
 			background-color: #48ff48;
@@ -141,6 +143,7 @@ header {
 		top: 70px;
 		width: 100%;
 		height: 50px;
+		margin: 0 5px;
 		text-transform: uppercase;
 		font-family: "Metropolis";
 		color: #000;
@@ -156,38 +159,52 @@ header {
 		}
 	}
 }
-@media (max-width: 769px) {
+@media screen and(min-width: 200px) {
+	.top {
+		display: none;
+	}
 	header {
-		opacity: 0;
+		height: 140px;
+		nav {
+			display: none;
+		}
 	}
 }
-@media (max-width: 1050px) {
+@media screen and(min-width: 769px) and (max-width: 1100px) {
 	.top {
+		display: block;
 		.icon {
 			font-size: 12px;
 		}
 		.contact {
+			top: 35px;
 			left: 42%;
 			span {
-				font-size: 10px;
+				font-size: 11px;
 			}
 		}
 		.favourite {
+			top: 35px;
 			left: 54%;
 			span {
-				font-size: 10px;
+				font-size: 11px;
 			}
 		}
 		.account {
+			top: 35px;
 			left: 66%;
 			span {
-				font-size: 10px;
+				font-size: 11px;
 			}
 		}
 		.shopping-cart {
-			left: 76%;
+			left: 75%;
+			top: 15px;
 			height: 35px;
 			width: 190px;
+			span {
+				font-size: 12px;
+			}
 			.cart-bg {
 				height: 35px;
 				width: 10px;
@@ -197,13 +214,31 @@ header {
 					left: -25px;
 				}
 			}
+			.arrow-icon {
+				font-size: 16px;
+				left: 171px;
+			}
+			.arrow-bg {
+				height: 35px;
+				width: 25px;
+			}
 		}
 	}
 	header {
 		nav {
 			.nav-item {
-				font-size: 10px;
+				font-size: 11px;
 			}
+		}
+	}
+}
+@media screen and(min-width: 769px) {
+	.top {
+		display: block;
+	}
+	header {
+		nav {
+			display: flex;
 		}
 	}
 }

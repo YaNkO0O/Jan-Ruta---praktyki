@@ -1,0 +1,64 @@
+main {
+	display: flex;
+	justify-content: center;
+	background-color: rgba(136, 136, 136, 0.196);
+	height: 1500px;
+	width: 100%;
+	.changeBigImage {
+		background-image: url("../img/img_02.jpg");
+		transition: all .5;
+	}
+	.slider-background {
+		background-image: url("../img/img_01.jpg");
+	}
+	.slider-big {
+		display: flex;
+		position: relative;
+		justify-content: center;
+		margin-top: 20px;
+		width: 96%;
+		height: 550px;
+		background-position: center;
+		background-repeat: no-repeat;
+		.arrow {
+			top: 45%;
+			position: absolute;
+			width: 50px;
+			height: 50px;
+			border: 0;
+			cursor: pointer;
+			background-color: #999999a1;
+		}
+		.right {
+			right: 0;
+		}
+		.left {
+			left: 0;
+		}
+	}
+	.banner {
+		position: absolute;
+		bottom: -325px;
+		width: 30%;
+		height: 300px;
+		text-transform: uppercase;
+		background-position: center;
+		color: #fff;
+		.banner-text {
+			position: absolute;
+			top: 100px;
+			left: 10px;
+		}
+	}
+	.left {
+		background-image: url("../img/img_02.jpg");
+		background-position: -150px 0;
+	}
+	.middle {
+		background-image: url("../img/img_03.jpg");
+		background-position: -150px 0;
+	}
+	.right {
+		background-image: url("../img/img_05.jpg");
+	}
+}

@@ -1,9 +1,15 @@
-const p = document.querySelector("p");
-const btn = document.querySelector(".btn");
+const slider=document.querySelector('.slider-big')
+const arrowRight=document.querySelector('.right')
+const arrowLeft=document.querySelector('.left')
 
-function changeColor() {
-	p.classList.toggle("changeColor");
+function addImage(){
+	slider.classList.add('changeBigImage')
+	slider.classList.remove('slider-background')
+}
+function revertImage(){
+	slider.classList.add('slider-background')
+	slider.classList.remove('changeBigImage')
 }
 
-btn.addEventListener("click", changeColor);
-wdad
+arrowLeft.addEventListener('click', revertImage)
+arrowRight.addEventListener('click', addImage)
