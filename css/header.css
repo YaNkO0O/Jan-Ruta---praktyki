@@ -2,6 +2,9 @@ body {
   margin: 0 auto;
 }
 
+header {
+  font-family: "MetropolisB";
+}
 header .top {
   position: relative;
   height: 70px;
@@ -10,7 +13,6 @@ header .top {
   text-transform: uppercase;
   border-bottom: 2px solid #e6e6e6;
   border-top: 2px solid #e6e6e6;
-  font-family: "Metropolis";
 }
 header a {
   text-decoration: none;
@@ -146,14 +148,14 @@ header nav {
   height: 50px;
   margin: 0 5px;
   text-transform: uppercase;
-  font-family: "Metropolis";
   color: #000;
   border-bottom: 2px solid #e6e6e6;
 }
 header nav .nav-item {
   display: flex;
   font-size: 14px;
-  transition: color 0.3s;
+  transition: 0.5s;
+  cursor: pointer;
 }
 header nav .nav-item:hover {
   color: #2bbe2b;

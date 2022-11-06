@@ -4,10 +4,10 @@ const arrowLeft=document.querySelector('.left')
 
 function addImage(){
 	slider.classList.add('changeBigImage')
-	slider.classList.remove('slider-background')
+	slider.classList.remove('slider-bg')
 }
 function revertImage(){
-	slider.classList.add('slider-background')
+	slider.classList.add('slider-bg')
 	slider.classList.remove('changeBigImage')
 }
 

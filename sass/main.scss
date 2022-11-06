@@ -2,13 +2,13 @@ main {
 	display: flex;
 	justify-content: center;
 	background-color: rgba(136, 136, 136, 0.196);
-	height: 1500px;
+	height: 100%;
 	width: 100%;
 	.changeBigImage {
 		background-image: url("../img/img_02.jpg");
-		transition: all .5;
+		transition: all 0.5;
 	}
-	.slider-background {
+	.slider-bg {
 		background-image: url("../img/img_01.jpg");
 	}
 	.slider-big {
@@ -16,7 +16,7 @@ main {
 		position: relative;
 		justify-content: center;
 		margin-top: 20px;
-		width: 96%;
+		width: 92%;
 		height: 550px;
 		background-position: center;
 		background-repeat: no-repeat;
@@ -27,7 +27,7 @@ main {
 			height: 50px;
 			border: 0;
 			cursor: pointer;
-			background-color: #999999a1;
+			background-color: #999999;
 		}
 		.right {
 			right: 0;
@@ -39,17 +39,32 @@ main {
 	.banner {
 		position: absolute;
 		bottom: -325px;
-		width: 30%;
+		width: 32.4%;
 		height: 300px;
-		text-transform: uppercase;
 		background-position: center;
+		background-repeat: no-repeat;
 		color: #fff;
+
 		.banner-text {
 			position: absolute;
-			top: 100px;
-			left: 10px;
+			font-family: "MetropolisB";
+			font-size: 30px;
+			top: 60px;
+			left: 30px;
+			overflow: hidden;
+			z-index: 1;
+			.heading2 {
+				font-family: "MetropolisL";
+			}
+		}
+		.banner-bg {
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			background-color: rgba(0, 0, 0, 0.447);
 		}
 	}
+
 	.left {
 		background-image: url("../img/img_02.jpg");
 		background-position: -150px 0;
@@ -60,5 +75,27 @@ main {
 	}
 	.right {
 		background-image: url("../img/img_05.jpg");
+	}
+}
+@media screen and(min-width: 200px) {
+	main {
+		.slider-big {
+			.banner {
+				.banner-text {
+					font-size: 18px;
+				}
+			}
+		}
+	}
+}
+@media screen and(min-width: 769px) and (max-width: 1100px) {
+	main {
+		.slider-big {
+			.banner {
+				.banner-text {
+					font-size: 30px;
+				}
+			}
+		}
 	}
 }
