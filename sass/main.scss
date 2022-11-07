@@ -1,9 +1,8 @@
-@use "./mixin'y.scss" as size;
 main {
 	display: flex;
 	justify-content: center;
 	background-color: rgba(136, 136, 136, 0.196);
-	height: 100%;
+	height: 1500px;
 	width: 100%;
 	.changeBigImage {
 		background-image: url("../img/img_02.jpg");
@@ -44,8 +43,9 @@ main {
 		height: 300px;
 		background-position: center;
 		background-repeat: no-repeat;
+		overflow: hidden;
 		color: #fff;
-		transition: scale .3s;
+		transition: scale 0.3s;
 
 		.banner-text {
 			position: absolute;
@@ -53,7 +53,6 @@ main {
 			font-size: 30px;
 			top: 60px;
 			left: 30px;
-			overflow: hidden;
 			z-index: 1;
 			.heading2 {
 				font-family: "MetropolisL";
@@ -63,14 +62,17 @@ main {
 			width: 60%;
 			height: 40px;
 			border: 1px solid #fff;
+			font-family: "MetropolisB";
 			color: #fff;
 			background-color: transparent;
 			text-transform: uppercase;
+			font-size: 7px;
 			cursor: pointer;
-			transition: background-color .4s;
+			transition: background-color 0.4s;
+			
 		}
-		.see-more:hover{
-			background-color: #F74137;
+		.see-more:hover {
+			background-color: #f74137;
 		}
 		.banner-bg {
 			position: absolute;
@@ -79,20 +81,29 @@ main {
 			background-color: rgba(0, 0, 0, 0.447);
 		}
 	}
-	.banner:hover{
-		scale: 1.1;
-	}
-
+	
 	.left {
 		background-image: url("../img/img_02.jpg");
 		background-position: -150px 0;
+		transition: scale 0.4s;
 	}
 	.middle {
 		background-image: url("../img/img_03.jpg");
 		background-position: -150px 0;
+		transition: scale 0.4s;
 	}
 	.right {
 		background-image: url("../img/img_05.jpg");
+		transition: scale 0.4s;
+	}
+	.left:hover{
+		scale: 1.1;
+	}
+	.middle:hover{
+		scale: 1.1;
+	}
+	.right:hover{
+		scale: 1.1;
 	}
 }
 @media screen and(min-width: 200px) {
@@ -113,22 +124,25 @@ main {
 				.banner-text {
 					font-size: 20px;
 				}
-			}
-		}
-	}
-}
-@media screen and(min-width: 992px) {
-	main {
-		.slider-big {
-			.banner {
-				.banner-text {
-					font-size: 30px;
+				.see-more {
+					font-size: 12px;
 				}
 			}
 		}
 	}
 }
 @media screen and(min-width: 600px) {
+	main {
+		.slider-big {
+			.banner {
+				.banner-text {
+					font-size: 27px;
+				}
+			}
+		}
+	}
+}
+@media screen and(min-width: 992px) {
 	main {
 		.slider-big {
 			.banner {

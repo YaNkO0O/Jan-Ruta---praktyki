@@ -43,9 +43,6 @@ header .contact span {
   font-size: 14px;
   margin-left: 10px;
 }
-header .contact:hover {
-  color: #37ea37;
-}
 header .favourite {
   position: absolute;
   display: flex;
@@ -60,9 +57,6 @@ header .favourite span {
   font-size: 14px;
   margin-left: 10px;
 }
-header .favourite:hover {
-  color: #37ea37;
-}
 header .account {
   position: absolute;
   display: flex;
@@ -76,9 +70,6 @@ header .account span {
   align-items: center;
   font-size: 14px;
   margin-left: 10px;
-}
-header .account:hover {
-  color: #37ea37;
 }
 header .shopping-cart {
   position: absolute;
@@ -116,6 +107,16 @@ header .shopping-cart span p {
   left: 25px;
   top: 5px;
 }
+header .shopping-cart .arrow-bg {
+  position: absolute;
+  top: 0;
+  left: 170px;
+  width: 39px;
+  height: 46px;
+  border-left: 2px solid #e6e6e6;
+  border-bottom: 2px solid #e6e6e6;
+  background-color: #9bcb3b;
+}
 header .shopping-cart .arrow-icon {
   display: inline-block;
   position: absolute;
@@ -125,16 +126,6 @@ header .shopping-cart .arrow-icon {
   color: #fff;
   padding: 4px 6px 0 6px;
   font-size: 27px;
-}
-header .shopping-cart .arrow-bg {
-  position: absolute;
-  top: 0;
-  left: 170px;
-  width: 39px;
-  height: 46px;
-  border-left: 2px solid #e6e6e6;
-  border-bottom: 2px solid #e6e6e6;
-  background-color: #48ff48;
 }
 header nav {
   display: flex;

@@ -1,3 +1,5 @@
+@use "./mixin'y.scss" as size;
+
 header {
 	margin: 0 auto;
 	font-family: "MetropolisB";
@@ -29,7 +31,7 @@ header {
 		padding: 5px;
 	}
 	.contact {
-		@include size;
+		@include size.size;
 		left: 46%;
 		transition: 0.3s;
 		span {
@@ -39,11 +41,8 @@ header {
 			margin-left: 10px;
 		}
 	}
-	.contact:hover {
-		color: #37ea37;
-	}
 	.favourite {
-		@include size;
+		@include size.size;
 		left: 58%;
 		transition: 0.3s;
 		span {
@@ -53,11 +52,8 @@ header {
 			margin-left: 10px;
 		}
 	}
-	.favourite:hover {
-		color: #37ea37;
-	}
 	.account {
-		@include size;
+		@include size.size;
 		left: 70%;
 		transition: 0.3s;
 		span {
@@ -66,9 +62,6 @@ header {
 			font-size: 14px;
 			margin-left: 10px;
 		}
-	}
-	.account:hover {
-		color: #37ea37;
 	}
 	.shopping-cart {
 		position: absolute;

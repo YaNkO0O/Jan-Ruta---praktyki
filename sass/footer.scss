@@ -3,9 +3,6 @@ body {
 		text-decoration: none;
 	}
 }
-main {
-	height: 1500px;
-}
 .nav-mobile {
 	display: none;
 	position: fixed;
@@ -31,6 +28,6 @@ main {
 
 @media (max-width: 768px) {
 	.nav-mobile {
-		display: flex;
+		display: none;
 	}
 }
