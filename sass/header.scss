@@ -1,15 +1,5 @@
-@mixin size {
-	position: absolute;
-	display: flex;
-	top: 25px;
-	color: #000;
-}
-
-body {
-	margin: 0 auto;
-}
-
 header {
+	margin: 0 auto;
 	font-family: "MetropolisB";
 	.top {
 		position: relative;
@@ -115,6 +105,16 @@ header {
 				top: 5px;
 			}
 		}
+		.arrow-bg {
+			position: absolute;
+			top: 0;
+			left: 170px;
+			width: 39px;
+			height: 46px;
+			border-left: 2px solid #e6e6e6;
+			border-bottom: 2px solid #e6e6e6;
+			background-color: #9bcb3b;
+		}
 		.arrow-icon {
 			display: inline-block;
 			position: absolute;
@@ -124,16 +124,6 @@ header {
 			color: #fff;
 			padding: 4px 6px 0 6px;
 			font-size: 27px;
-		}
-		.arrow-bg {
-			position: absolute;
-			top: 0;
-			left: 170px;
-			width: 39px;
-			height: 46px;
-			border-left: 2px solid #e6e6e6;
-			border-bottom: 2px solid #e6e6e6;
-			background-color: #48ff48;
 		}
 	}
 	nav {
@@ -150,7 +140,7 @@ header {
 		.nav-item {
 			display: flex;
 			font-size: 14px;
-			transition: .5s;
+			transition: 0.5s;
 			cursor: pointer;
 		}
 		.nav-item:hover {
