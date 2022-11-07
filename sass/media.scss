@@ -1,4 +1,24 @@
+@media screen and(min-width: 200px) {
+	.top {
+		display: none;
+	}
+	header {
+		height: 70px;
+		.logo-mobile {
+			display: block;
+			left: 10%;
+		}
+		nav {
+			display: none;
+		}
+	}
+}
 @media screen and(min-width: 430px) {
+	header {
+		.logo-mobile {
+			left: 20%;
+		}
+	}
 	main {
 		.slider-big {
 			.banner {
@@ -16,16 +36,21 @@
 	}
 }
 @media screen and(min-width: 600px) {
-	main {
-		.slider-big {
-			.banner {
-				.banner-text {
-					font-size: 27px;
+	header {
+		.logo-mobile {
+			left: 30%;
+		}
+		main {
+			.slider-big {
+				.banner {
+					.banner-text {
+						font-size: 27px;
+					}
 				}
 			}
-		}
-		.recommended {
-			font-size: 35px;
+			.recommended {
+				font-size: 35px;
+			}
 		}
 	}
 }
@@ -35,8 +60,19 @@
 	}
 	.top {
 		display: block;
+		.logo-mobile {
+			display: none;
+		}
 	}
+
 	header {
+		height: 140px;
+		.logo {
+			display: block;
+		}
+		.logo-mobile {
+			display: none;
+		}
 		nav {
 			display: flex;
 		}
@@ -47,6 +83,68 @@
 			.red-underline {
 				left: 45%;
 				width: 10%;
+			}
+		}
+	}
+}
+@media screen and(min-width: 768px) and (max-width: 1100px) {
+	.top {
+		display: block;
+		.icon {
+			font-size: 12px;
+		}
+		.contact {
+			top: 35px;
+			left: 42%;
+			span {
+				font-size: 11px;
+			}
+		}
+		.favourite {
+			top: 35px;
+			left: 54%;
+			span {
+				font-size: 11px;
+			}
+		}
+		.account {
+			top: 35px;
+			left: 66%;
+			span {
+				font-size: 11px;
+			}
+		}
+		.shopping-cart {
+			left: 75%;
+			top: 15px;
+			height: 35px;
+			width: 190px;
+			span {
+				font-size: 12px;
+			}
+			.cart-bg {
+				height: 35px;
+				width: 10px;
+				right: 150px;
+				.cart-icon {
+					font-size: 19px;
+					left: -25px;
+				}
+			}
+			.arrow-icon {
+				font-size: 16px;
+				left: 171px;
+			}
+			.arrow-bg {
+				height: 35px;
+				width: 25px;
+			}
+		}
+	}
+	header {
+		nav {
+			.nav-item {
+				font-size: 11px;
 			}
 		}
 	}

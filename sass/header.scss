@@ -1,6 +1,21 @@
 @use "./mixin'y.scss" as size;
 
 header {
+	position: relative;
+	.logo {
+		display: none;
+		position: absolute;
+		top: 3px;
+		left: 30px;
+		width: 249px;
+		height: 58px;
+		padding: 5px;
+	}
+	.logo-mobile {
+		position: absolute;
+		display: flex;
+		left: 35%;
+	}
 	margin: 0 auto;
 	font-family: "MetropolisB";
 	.top {
@@ -16,20 +31,11 @@ header {
 		text-decoration: none;
 		color: #000;
 	}
-	.logo-mobile {
-		display: none;
-	}
+
 	.icon {
 		font-size: 27px;
 	}
-	.logo {
-		display: flex;
-		top: 26px;
-		left: 30px;
-		width: 249px;
-		height: 58px;
-		padding: 5px;
-	}
+
 	.contact {
 		@include size.size;
 		left: 46%;
@@ -133,86 +139,12 @@ header {
 		.nav-item {
 			display: flex;
 			font-size: 14px;
-			transition: color 0.5s, scale .5s;
+			transition: color 0.5s, scale 0.5s;
 			cursor: pointer;
 		}
 		.nav-item:hover {
-			color: #2bbe2b; 
+			color: #2bbe2b;
 			scale: 1.1;
 		}
 	}
 }
-@media screen and(min-width: 200px) {
-	.top {
-		display: none;
-	}
-	header {
-		height: 140px;
-		nav {
-			display: none;
-		}
-	}
-}
-@media screen and(min-width: 768px) and (max-width: 1100px) {
-	.top {
-		display: block;
-		.icon {
-			font-size: 12px;
-		}
-		.contact {
-			top: 35px;
-			left: 42%;
-			span {
-				font-size: 11px;
-			}
-		}
-		.favourite {
-			top: 35px;
-			left: 54%;
-			span {
-				font-size: 11px;
-			}
-		}
-		.account {
-			top: 35px;
-			left: 66%;
-			span {
-				font-size: 11px;
-			}
-		}
-		.shopping-cart {
-			left: 75%;
-			top: 15px;
-			height: 35px;
-			width: 190px;
-			span {
-				font-size: 12px;
-			}
-			.cart-bg {
-				height: 35px;
-				width: 10px;
-				right: 150px;
-				.cart-icon {
-					font-size: 19px;
-					left: -25px;
-				}
-			}
-			.arrow-icon {
-				font-size: 16px;
-				left: 171px;
-			}
-			.arrow-bg {
-				height: 35px;
-				width: 25px;
-			}
-		}
-	}
-	header {
-		nav {
-			.nav-item {
-				font-size: 11px;
-			}
-		}
-	}
-}
-

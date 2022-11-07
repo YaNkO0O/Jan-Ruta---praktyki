@@ -1,4 +1,22 @@
+@media screen and (min-width: 200px) {
+  .top {
+    display: none;
+  }
+  header {
+    height: 70px;
+  }
+  header .logo-mobile {
+    display: block;
+    left: 10%;
+  }
+  header nav {
+    display: none;
+  }
+}
 @media screen and (min-width: 430px) {
+  header .logo-mobile {
+    left: 20%;
+  }
   main .slider-big .banner .banner-text {
     font-size: 20px;
   }
@@ -10,10 +28,13 @@
   }
 }
 @media screen and (min-width: 600px) {
-  main .slider-big .banner .banner-text {
+  header .logo-mobile {
+    left: 30%;
+  }
+  header main .slider-big .banner .banner-text {
     font-size: 27px;
   }
-  main .recommended {
+  header main .recommended {
     font-size: 35px;
   }
 }
@@ -24,6 +45,18 @@
   .top {
     display: block;
   }
+  .top .logo-mobile {
+    display: none;
+  }
+  header {
+    height: 140px;
+  }
+  header .logo {
+    display: block;
+  }
+  header .logo-mobile {
+    display: none;
+  }
   header nav {
     display: flex;
   }
@@ -33,6 +66,64 @@
   main .recommended .red-underline {
     left: 45%;
     width: 10%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1100px) {
+  .top {
+    display: block;
+  }
+  .top .icon {
+    font-size: 12px;
+  }
+  .top .contact {
+    top: 35px;
+    left: 42%;
+  }
+  .top .contact span {
+    font-size: 11px;
+  }
+  .top .favourite {
+    top: 35px;
+    left: 54%;
+  }
+  .top .favourite span {
+    font-size: 11px;
+  }
+  .top .account {
+    top: 35px;
+    left: 66%;
+  }
+  .top .account span {
+    font-size: 11px;
+  }
+  .top .shopping-cart {
+    left: 75%;
+    top: 15px;
+    height: 35px;
+    width: 190px;
+  }
+  .top .shopping-cart span {
+    font-size: 12px;
+  }
+  .top .shopping-cart .cart-bg {
+    height: 35px;
+    width: 10px;
+    right: 150px;
+  }
+  .top .shopping-cart .cart-bg .cart-icon {
+    font-size: 19px;
+    left: -25px;
+  }
+  .top .shopping-cart .arrow-icon {
+    font-size: 16px;
+    left: 171px;
+  }
+  .top .shopping-cart .arrow-bg {
+    height: 35px;
+    width: 25px;
+  }
+  header nav .nav-item {
+    font-size: 11px;
   }
 }
 @media screen and (min-width: 992px) {

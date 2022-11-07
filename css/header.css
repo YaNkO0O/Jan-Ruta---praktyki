@@ -1,6 +1,21 @@
 header {
+  position: relative;
   margin: 0 auto;
   font-family: "MetropolisB";
+}
+header .logo {
+  display: none;
+  position: absolute;
+  top: 3px;
+  left: 30px;
+  width: 249px;
+  height: 58px;
+  padding: 5px;
+}
+header .logo-mobile {
+  position: absolute;
+  display: flex;
+  left: 35%;
 }
 header .top {
   position: relative;
@@ -15,19 +30,8 @@ header a {
   text-decoration: none;
   color: #000;
 }
-header .logo-mobile {
-  display: none;
-}
 header .icon {
   font-size: 27px;
-}
-header .logo {
-  display: flex;
-  top: 26px;
-  left: 30px;
-  width: 249px;
-  height: 58px;
-  padding: 5px;
 }
 header .contact {
   position: absolute;
@@ -148,74 +152,4 @@ header nav .nav-item {
 header nav .nav-item:hover {
   color: #2bbe2b;
   scale: 1.1;
-}
-
-@media screen and (min-width: 200px) {
-  .top {
-    display: none;
-  }
-  header {
-    height: 140px;
-  }
-  header nav {
-    display: none;
-  }
-}
-@media screen and (min-width: 768px) and (max-width: 1100px) {
-  .top {
-    display: block;
-  }
-  .top .icon {
-    font-size: 12px;
-  }
-  .top .contact {
-    top: 35px;
-    left: 42%;
-  }
-  .top .contact span {
-    font-size: 11px;
-  }
-  .top .favourite {
-    top: 35px;
-    left: 54%;
-  }
-  .top .favourite span {
-    font-size: 11px;
-  }
-  .top .account {
-    top: 35px;
-    left: 66%;
-  }
-  .top .account span {
-    font-size: 11px;
-  }
-  .top .shopping-cart {
-    left: 75%;
-    top: 15px;
-    height: 35px;
-    width: 190px;
-  }
-  .top .shopping-cart span {
-    font-size: 12px;
-  }
-  .top .shopping-cart .cart-bg {
-    height: 35px;
-    width: 10px;
-    right: 150px;
-  }
-  .top .shopping-cart .cart-bg .cart-icon {
-    font-size: 19px;
-    left: -25px;
-  }
-  .top .shopping-cart .arrow-icon {
-    font-size: 16px;
-    left: 171px;
-  }
-  .top .shopping-cart .arrow-bg {
-    height: 35px;
-    width: 25px;
-  }
-  header nav .nav-item {
-    font-size: 11px;
-  }
 }/*# sourceMappingURL=header.css.map */

@@ -71,8 +71,8 @@ main {
 			transition: background-color 0.4s;
 		}
 		.see-more:hover {
-			background-color: #F74137;
-			border: #F74137;
+			background-color: #f74137;
+			border: #f74137;
 		}
 		.banner-bg {
 			position: absolute;
@@ -89,7 +89,7 @@ main {
 	}
 	.middle {
 		background-image: url("../img/img_03.jpg");
-		background-position: -150px 0;
+		background-position: -270px 0;
 		transition: scale 0.4s;
 	}
 	.right {
@@ -108,13 +108,13 @@ main {
 		font-size: 27px;
 		text-align: center;
 		border-bottom: 1px solid #c7c4c4;
-	}
-	.red-underline {
-		position: absolute;
-		left: 42.5%;
-		width: 15%;
-		bottom: 0;
-		height: 2px;
-		background-color: red;
+		.red-underline {
+			position: absolute;
+			left: 42.5%;
+			width: 15%;
+			bottom: 0;
+			height: 2px;
+			background-color: red;
+		}
 	}
 }
