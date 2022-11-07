@@ -3,7 +3,7 @@ body a {
 }
 
 .nav-mobile {
-  display: none;
+  display: flex;
   position: fixed;
   justify-content: center;
   align-items: center;
@@ -12,7 +12,7 @@ body a {
   color: #000;
   background-color: #e6e6e6;
   z-index: 5;
-  width: 100%;
+  width: 97%;
 }
 .nav-mobile a {
   display: flex;
@@ -23,10 +23,4 @@ body a {
   height: 50px;
   border-left: 1px solid black;
   border-right: 1px solid black;
-}
-
-@media (max-width: 768px) {
-  .nav-mobile {
-    display: none;
-  }
 }/*# sourceMappingURL=footer.css.map */

@@ -1,0 +1,49 @@
+@media screen and (min-width: 430px) {
+  main .slider-big .banner .banner-text {
+    font-size: 20px;
+  }
+  main .slider-big .banner .see-more {
+    font-size: 12px;
+  }
+  main .recommended {
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 600px) {
+  main .slider-big .banner .banner-text {
+    font-size: 27px;
+  }
+  main .recommended {
+    font-size: 35px;
+  }
+}
+@media (min-width: 768px) {
+  .nav-mobile {
+    display: none;
+  }
+  .top {
+    display: block;
+  }
+  header nav {
+    display: flex;
+  }
+  main .recommended {
+    font-size: 35px;
+  }
+  main .recommended .red-underline {
+    left: 45%;
+    width: 10%;
+  }
+}
+@media screen and (min-width: 992px) {
+  main .slider-big .banner .banner-text {
+    font-size: 30px;
+  }
+  main .recommended {
+    font-size: 40px;
+  }
+  main .recommended .red-underline {
+    left: 45%;
+    width: 10%;
+  }
+}/*# sourceMappingURL=media.css.map */

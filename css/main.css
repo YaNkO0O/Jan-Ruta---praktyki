@@ -51,7 +51,7 @@ main .banner {
 main .banner .banner-text {
   position: absolute;
   font-family: "MetropolisB";
-  font-size: 30px;
+  font-size: 13px;
   top: 60px;
   left: 30px;
   z-index: 1;
@@ -62,8 +62,8 @@ main .banner .banner-text .heading2 {
 main .banner .see-more {
   width: 60%;
   height: 40px;
-  border: 1px solid #fff;
   font-family: "MetropolisB";
+  border: 1px solid #fff;
   color: #fff;
   background-color: transparent;
   text-transform: uppercase;
@@ -72,7 +72,8 @@ main .banner .see-more {
   transition: background-color 0.4s;
 }
 main .banner .see-more:hover {
-  background-color: #f74137;
+  background-color: #F74137;
+  border: #F74137;
 }
 main .banner .banner-bg {
   position: absolute;
@@ -94,36 +95,23 @@ main .right {
   background-image: url("../img/img_05.jpg");
   transition: scale 0.4s;
 }
-main .left:hover {
-  scale: 1.1;
+main .banner:hover {
+  scale: 1.05;
 }
-main .middle:hover {
-  scale: 1.1;
+main .recommended {
+  position: absolute;
+  font-family: "MetropolisB";
+  width: 92%;
+  bottom: -530px;
+  font-size: 27px;
+  text-align: center;
+  border-bottom: 1px solid #c7c4c4;
 }
-main .right:hover {
-  scale: 1.1;
-}
-
-@media screen and (min-width: 200px) {
-  main .slider-big .banner .banner-text {
-    font-size: 13px;
-  }
-}
-@media screen and (min-width: 430px) {
-  main .slider-big .banner .banner-text {
-    font-size: 20px;
-  }
-  main .slider-big .banner .see-more {
-    font-size: 12px;
-  }
-}
-@media screen and (min-width: 600px) {
-  main .slider-big .banner .banner-text {
-    font-size: 27px;
-  }
-}
-@media screen and (min-width: 992px) {
-  main .slider-big .banner .banner-text {
-    font-size: 30px;
-  }
+main .red-underline {
+  position: absolute;
+  left: 42.5%;
+  width: 15%;
+  bottom: 0;
+  height: 2px;
+  background-color: red;
 }/*# sourceMappingURL=main.css.map */

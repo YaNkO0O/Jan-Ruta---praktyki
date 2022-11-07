@@ -17,7 +17,7 @@ header {
 		color: #000;
 	}
 	.logo-mobile {
-		opacity: 0;
+		display: none;
 	}
 	.icon {
 		font-size: 27px;
@@ -133,12 +133,12 @@ header {
 		.nav-item {
 			display: flex;
 			font-size: 14px;
-			transition: 0.5s;
+			transition: color 0.5s, scale .5s;
 			cursor: pointer;
 		}
 		.nav-item:hover {
-			color: #2bbe2b;
-			background-color: #fff;
+			color: #2bbe2b; 
+			scale: 1.1;
 		}
 	}
 }
@@ -153,7 +153,7 @@ header {
 		}
 	}
 }
-@media screen and(min-width: 769px) and (max-width: 1100px) {
+@media screen and(min-width: 768px) and (max-width: 1100px) {
 	.top {
 		display: block;
 		.icon {
@@ -215,13 +215,4 @@ header {
 		}
 	}
 }
-@media screen and(min-width: 769px) {
-	.top {
-		display: block;
-	}
-	header {
-		nav {
-			display: flex;
-		}
-	}
-}
+
