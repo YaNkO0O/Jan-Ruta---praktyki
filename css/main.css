@@ -2,7 +2,7 @@ main {
   display: flex;
   justify-content: center;
   background-color: rgba(136, 136, 136, 0.196);
-  height: 1500px;
+  height: 2300px;
   width: 100%;
 }
 main .changeBigImage {
@@ -100,18 +100,71 @@ main .banner:hover {
 }
 main .recommended {
   position: absolute;
+  display: flex;
+  justify-content: center;
   font-family: "MetropolisB";
   width: 92%;
-  bottom: -530px;
+  bottom: -660px;
   font-size: 27px;
   text-align: center;
   border-bottom: 1px solid #c7c4c4;
 }
 main .recommended .red-underline {
   position: absolute;
-  left: 42.5%;
   width: 15%;
   bottom: 0;
   height: 2px;
+  background-color: red;
+}
+main .slider-small {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 92%;
+  height: 450px;
+  bottom: -1140px;
+}
+main .slider-small .recommended_item {
+  display: flex;
+  width: 19.3%;
+  height: 450px;
+}
+main .slider-small .recommended_item .recommended_item_photo {
+  width: 100%;
+  height: 300px;
+  background-image: url("../img/img_06.jpg");
+  background-position: center;
+}
+main .slider-small .recommended_item .recommended_item_info {
+  position: absolute;
+  top: 250px;
+  width: 19.5%;
+  height: 100px;
+  text-align: center;
+  background-color: #fff;
+}
+main .slider-small .recommended_item .recommended_item_info .recommended_item_infoCode {
+  font-family: "Metropolis";
+  font-size: 6px;
+}
+main .slider-small .recommended_item .recommended_item_info .recommended_item_infoPrice--old {
+  text-decoration: line-through;
+  color: #a3a3a3;
+  font-size: 6px;
+}
+main .slider-small .recommended_item .recommended_item_info .recommended_item_infoPrice--new {
+  font-family: "MetropolisB";
+  text-transform: uppercase;
+  font-size: 6px;
+}
+main .slider-small .recommended_item .recommended_item_info h3 {
+  text-transform: uppercase;
+  font-family: "MetropolisB";
+  font-size: 6px;
+}
+main .see-inspirations {
+  position: absolute;
+  width: 20%;
+  height: 50px;
   background-color: red;
 }/*# sourceMappingURL=main.css.map */

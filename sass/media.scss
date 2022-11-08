@@ -31,7 +31,28 @@
 			}
 		}
 		.recommended {
+			bottom: -660px;
 			font-size: 30px;
+		}
+		.slider-small {
+			bottom: -1150px;
+			.recommended_item {
+				.recommended_item_info {
+					height: 150px;
+					h3 {
+						font-size: 8px;
+					}
+					.recommended_item_infoCode {
+						font-size: 10px;
+					}
+					.recommended_item_infoPrice--old {
+						font-size: 12px;
+					}
+					.recommended_item_infoPrice--new {
+						font-size: 12px;
+					}
+				}
+			}
 		}
 	}
 }
@@ -48,8 +69,30 @@
 					}
 				}
 			}
-			.recommended {
-				font-size: 35px;
+		}
+	}
+	main {
+		.recommended {
+			bottom: -660px;
+			font-size: 35px;
+		}
+		.slider-small {
+			bottom: -1150px;
+			.recommended_item {
+				.recommended_item_info {
+					h3 {
+						font-size: 14px;
+					}
+					.recommended_item_infoCode {
+						font-size: 12px;
+					}
+					.recommended_item_infoPrice--old {
+						font-size: 14px;
+					}
+					.recommended_item_infoPrice--new {
+						font-size: 14px;
+					}
+				}
 			}
 		}
 	}
@@ -79,11 +122,14 @@
 	}
 	main {
 		.recommended {
+			bottom: -750px;
 			font-size: 35px;
 			.red-underline {
-				left: 45%;
 				width: 10%;
 			}
+		}
+		.slider-small {
+			bottom: -1240px;
 		}
 	}
 }
