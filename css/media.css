@@ -1,11 +1,11 @@
 @media screen and (min-width: 200px) {
-  .top {
+  .container__top {
     display: none;
   }
   header {
     height: 70px;
   }
-  header .logo-mobile {
+  header .container__logoMobile {
     display: block;
     left: 10%;
   }
@@ -14,165 +14,92 @@
   }
 }
 @media screen and (min-width: 430px) {
-  header .logo-mobile {
+  header .container__logoMobile {
     left: 20%;
-  }
-  main .slider-big .banner .banner-text {
-    font-size: 20px;
-  }
-  main .slider-big .banner .see-more {
-    font-size: 12px;
-  }
-  main .recommended {
-    bottom: -660px;
-    font-size: 30px;
-  }
-  main .slider-small {
-    bottom: -1150px;
-  }
-  main .slider-small .recommended_item .recommended_item_info {
-    height: 150px;
-  }
-  main .slider-small .recommended_item .recommended_item_info h3 {
-    font-size: 8px;
-  }
-  main .slider-small .recommended_item .recommended_item_info .recommended_item_infoCode {
-    font-size: 10px;
-  }
-  main .slider-small .recommended_item .recommended_item_info .recommended_item_infoPrice--old {
-    font-size: 12px;
-  }
-  main .slider-small .recommended_item .recommended_item_info .recommended_item_infoPrice--new {
-    font-size: 12px;
   }
 }
 @media screen and (min-width: 600px) {
-  header .logo-mobile {
+  header .container__logoMobile {
     left: 30%;
-  }
-  header main .slider-big .banner .banner-text {
-    font-size: 27px;
-  }
-  main .recommended {
-    bottom: -660px;
-    font-size: 35px;
-  }
-  main .slider-small {
-    bottom: -1150px;
-  }
-  main .slider-small .recommended_item .recommended_item_info h3 {
-    font-size: 14px;
-  }
-  main .slider-small .recommended_item .recommended_item_info .recommended_item_infoCode {
-    font-size: 12px;
-  }
-  main .slider-small .recommended_item .recommended_item_info .recommended_item_infoPrice--old {
-    font-size: 14px;
-  }
-  main .slider-small .recommended_item .recommended_item_info .recommended_item_infoPrice--new {
-    font-size: 14px;
   }
 }
 @media (min-width: 768px) {
   .nav-mobile {
     display: none;
   }
-  .top {
+  .container__top {
     display: block;
   }
-  .top .logo-mobile {
+  .container__top .container__logoMobile {
     display: none;
   }
   header {
     height: 140px;
   }
-  header .logo {
+  header .container__logo {
     display: block;
   }
-  header .logo-mobile {
+  header .container__logoMobile {
     display: none;
   }
   header nav {
     display: flex;
   }
-  main .recommended {
-    bottom: -750px;
-    font-size: 35px;
-  }
-  main .recommended .red-underline {
-    width: 10%;
-  }
-  main .slider-small {
-    bottom: -1240px;
-  }
 }
 @media screen and (min-width: 768px) and (max-width: 1100px) {
-  .top {
+  .container__top {
     display: block;
   }
-  .top .icon {
+  .container__top .icon {
     font-size: 12px;
   }
-  .top .contact {
+  .container__top .top__contact {
     top: 35px;
     left: 42%;
   }
-  .top .contact span {
+  .container__top .top__contact span {
     font-size: 11px;
   }
-  .top .favourite {
+  .container__top .top__favourite {
     top: 35px;
     left: 54%;
   }
-  .top .favourite span {
+  .container__top .top__favourite span {
     font-size: 11px;
   }
-  .top .account {
+  .container__top .top__account {
     top: 35px;
     left: 66%;
   }
-  .top .account span {
+  .container__top .top__account span {
     font-size: 11px;
   }
-  .top .shopping-cart {
-    left: 75%;
+  .container__top .top__shoppingCart {
     top: 15px;
     height: 35px;
     width: 190px;
   }
-  .top .shopping-cart span {
+  .container__top .top__shoppingCart span {
     font-size: 12px;
   }
-  .top .shopping-cart .cart-bg {
+  .container__top .top__shoppingCart .shoppingCart__bg {
     height: 35px;
     width: 10px;
     right: 150px;
   }
-  .top .shopping-cart .cart-bg .cart-icon {
+  .container__top .top__shoppingCart .shoppingCart__bg .shoppingCart__cartIcon {
     font-size: 19px;
     left: -25px;
   }
-  .top .shopping-cart .arrow-icon {
+  .container__top .top__shoppingCart .shoppingCart__arrowIcon {
     font-size: 16px;
     left: 171px;
   }
-  .top .shopping-cart .arrow-bg {
+  .container__top .top__shoppingCart .shoppingCart__arrowBg {
     height: 35px;
     width: 25px;
   }
   header nav .nav-item {
     font-size: 11px;
-  }
-}
-@media screen and (min-width: 992px) {
-  main .slider-big .banner .banner-text {
-    font-size: 30px;
-  }
-  main .recommended {
-    font-size: 40px;
-  }
-  main .recommended .red-underline {
-    left: 45%;
-    width: 10%;
   }
 }/*# sourceMappingURL=media.css.map */

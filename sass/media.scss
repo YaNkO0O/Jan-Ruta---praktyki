@@ -1,10 +1,10 @@
 @media screen and(min-width: 200px) {
-	.top {
+	.container__top {
 		display: none;
 	}
 	header {
 		height: 70px;
-		.logo-mobile {
+		.container__logoMobile {
 			display: block;
 			left: 10%;
 		}
@@ -15,85 +15,15 @@
 }
 @media screen and(min-width: 430px) {
 	header {
-		.logo-mobile {
+		.container__logoMobile {
 			left: 20%;
-		}
-	}
-	main {
-		.slider-big {
-			.banner {
-				.banner-text {
-					font-size: 20px;
-				}
-				.see-more {
-					font-size: 12px;
-				}
-			}
-		}
-		.recommended {
-			bottom: -660px;
-			font-size: 30px;
-		}
-		.slider-small {
-			bottom: -1150px;
-			.recommended_item {
-				.recommended_item_info {
-					height: 150px;
-					h3 {
-						font-size: 8px;
-					}
-					.recommended_item_infoCode {
-						font-size: 10px;
-					}
-					.recommended_item_infoPrice--old {
-						font-size: 12px;
-					}
-					.recommended_item_infoPrice--new {
-						font-size: 12px;
-					}
-				}
-			}
 		}
 	}
 }
 @media screen and(min-width: 600px) {
 	header {
-		.logo-mobile {
+		.container__logoMobile {
 			left: 30%;
-		}
-		main {
-			.slider-big {
-				.banner {
-					.banner-text {
-						font-size: 27px;
-					}
-				}
-			}
-		}
-	}
-	main {
-		.recommended {
-			bottom: -660px;
-			font-size: 35px;
-		}
-		.slider-small {
-			bottom: -1150px;
-			.recommended_item {
-				.recommended_item_info {
-					h3 {
-						font-size: 14px;
-					}
-					.recommended_item_infoCode {
-						font-size: 12px;
-					}
-					.recommended_item_infoPrice--old {
-						font-size: 14px;
-					}
-					.recommended_item_infoPrice--new {
-						font-size: 14px;
-					}
-				}
-			}
 		}
 	}
 }
@@ -101,87 +31,74 @@
 	.nav-mobile {
 		display: none;
 	}
-	.top {
+	.container__top {
 		display: block;
-		.logo-mobile {
+		.container__logoMobile {
 			display: none;
 		}
 	}
 
 	header {
 		height: 140px;
-		.logo {
+		.container__logo {
 			display: block;
 		}
-		.logo-mobile {
+		.container__logoMobile {
 			display: none;
 		}
 		nav {
 			display: flex;
 		}
 	}
-	main {
-		.recommended {
-			bottom: -750px;
-			font-size: 35px;
-			.red-underline {
-				width: 10%;
-			}
-		}
-		.slider-small {
-			bottom: -1240px;
-		}
-	}
 }
 @media screen and(min-width: 768px) and (max-width: 1100px) {
-	.top {
+	.container__top {
 		display: block;
 		.icon {
 			font-size: 12px;
 		}
-		.contact {
+		.top__contact {
 			top: 35px;
 			left: 42%;
 			span {
 				font-size: 11px;
 			}
 		}
-		.favourite {
+		.top__favourite {
 			top: 35px;
 			left: 54%;
 			span {
 				font-size: 11px;
 			}
 		}
-		.account {
+		.top__account {
 			top: 35px;
 			left: 66%;
 			span {
 				font-size: 11px;
 			}
 		}
-		.shopping-cart {
-			left: 75%;
+		.top__shoppingCart {
 			top: 15px;
 			height: 35px;
 			width: 190px;
 			span {
 				font-size: 12px;
 			}
-			.cart-bg {
+			.shoppingCart__bg {
 				height: 35px;
 				width: 10px;
 				right: 150px;
-				.cart-icon {
+				.shoppingCart__cartIcon {
 					font-size: 19px;
 					left: -25px;
 				}
 			}
-			.arrow-icon {
+			.shoppingCart__arrowIcon {
 				font-size: 16px;
 				left: 171px;
 			}
-			.arrow-bg {
+			.shoppingCart__arrowBg {
 				height: 35px;
 				width: 25px;
 			}
@@ -197,20 +114,4 @@
 }
 
 @media screen and(min-width: 992px) {
-	main {
-		.slider-big {
-			.banner {
-				.banner-text {
-					font-size: 30px;
-				}
-			}
-		}
-		.recommended {
-			font-size: 40px;
-			.red-underline {
-				left: 45%;
-				width: 10%;
-			}
-		}
-	}
 }

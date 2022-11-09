@@ -9,179 +9,91 @@
     <script src="https://kit.fontawesome.com/5639aac7eb.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/fonts.css" />
     <link rel="stylesheet" href="./css/header.css" />
-    <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./css/mobileNav.css" />
     <link rel="stylesheet" href="./css/main.css" />
     <link rel="stylesheet" href="./css/media.css" />
 </head>
 
 <body>
-    <header>
-        <div class="logo">
-            <img src="./img/logo.png" alt="Elhurt PLUS">
-        </div>
-        <div class="logo-mobile">
-            <img src="./img/logo.png" alt="Elhurt PLUS">
-        </div>
-        <div class="top">
+    <div class="container">
+        <header>
+            <div class="container__logo">
+                <img src="./img/logo.png" alt="Elhurt PLUS">
+            </div>
+            <div class="container__logoMobile">
+                <img src="./img/logo.png" alt="Elhurt PLUS">
+            </div>
+            <div class="container__top">
 
-            <a href="javascript:void(0)">
-                <div class="contact">
-                    <i class="icon icon-phone"></i>
-                    <span>kontakt</span>
-                </div>
-            </a>
-            <a href="javascript:void(0)">
-                <div class="favourite">
-                    <i class="icon icon-star"></i>
-                    <span>ulubione</span>
-                </div>
-            </a>
-            <a href="javascript:void(0)">
-                <div class="account">
-                    <i class="icon icon-user"></i>
-                    <span>moje <br>
-                        konto</span>
-                </div>
-            </a>
-            <a href="javascript:void(0)">
-                <div class="shopping-cart">
-                    <div class="cart-bg">
-                        <div class="icon cart-icon icon-cart"></div>
+                <a href="javascript:void(0)">
+                    <div class="top__contact">
+                        <i class="contact__icon icon icon-phone"></i>
+                        <span>kontakt</span>
                     </div>
-                    <span>twój koszyk
-                        <p>3456,00 zł</p>
-                    </span>
-                    <div class="arrow-bg">
-
+                </a>
+                <a href="javascript:void(0)">
+                    <div class="top__favourite">
+                        <i class="favourite__icon icon icon-star"></i>
+                        <span>ulubione</span>
                     </div>
-                    <div class="icon arrow-icon icon-arrow_right"></div>
-                </div>
-            </a>
-        </div>
-        <nav>
-            <a href="javascript:void(0)">
-                <div class="nav-item">
-                    <p>źródła światła</p>
-                </div>
-            </a>
-            <a href="javascript:void(0)">
-                <div class="nav-item">
-                    <p>oświetlenie wewnętrzne</p>
-                </div>
-            </a>
-            <a href="javascript:void(0)">
-                <div class="nav-item">
-                    <p>gniazdka, włączniki</p>
-                </div>
-            </a>
-            <a href="javascript:void(0)">
-                <div class="nav-item">
-                    <p>automatyka, sterowanie</p>
-                </div>
-            </a>
-            <a href="javascript:void(0)">
-                <div class="nav-item">
-                    <p>rozdzielnie i aparatura</p>
-                </div>
-            </a>
-            <a href="javascript:void(0)">
-                <div class="nav-item">
-                    <p>materiały instalacyjne</p>
-                </div>
-            </a>
-
-        </nav>
-    </header>
-    <main>
-        <div class="slider-big slider-bg">
-            <button class="arrow left icon-arrow_left"></button>
-            <button class="arrow right icon-arrow_right"></button>
-
-            <div class="banner left">
-                <div class="banner-text">
-                    <p class="heading1">Pomoc eksperta</p>
-                    <p class="heading2">Doradzamy</p>
-                    <button class="see-more">zobacz więcej</button>
-                </div>
-                <div class="banner-bg"></div>
-            </div>
-            <div class="banner middle">
-                <div class="banner-text">
-                    <p class="heading1">Szukaj wygodnie</p>
-                    <p class="heading2">Elhurt Plus</p>
-                    <button class="see-more">zobacz więcej</button>
-                </div>
-                <div class="banner-bg"></div>
-            </div>
-            <div class="banner right">
-                <div class="banner-text">
-                    <p class="heading1">Seria Unica</p>
-                    <p class="heading2">Wyjątkowy wzór</p>
-                    <button class="see-more">zobacz więcej</button>
-                </div>
-                <div class="banner-bg"></div>
-            </div>
-        </div>
-
-        <div class="recommended">
-            <p>Polecane produkty</p>
-            <div class="red-underline"></div>
-        </div>
-
-        <div class="slider-small">
-
-            <div class="recommended_item">
-                <div class="recommended_item_photo">
-                    <div class="recommended_item_info">
-                        <h3>łącznik jednobiegunowy</h3>
-                        <p class="recommended_item_infoCode">Kod produktu: CW1.01/11</p>
-                        <p class="recommended_item_infoPrice--old">656,65 zł</p>
-                        <p class="recommended_item_infoPrice--new">442,85 zł</p>
+                </a>
+                <a href="javascript:void(0)">
+                    <div class="top__account">
+                        <i class="account__icon icon icon-user"></i>
+                        <span>moje <br>
+                            konto</span>
                     </div>
-                </div>
-            </div>
-            <div class="recommended_item">
-                <div class="recommended_item_photo"></div>
-                <div class="recommended_item_info">
-                    <h3>łącznik jednobiegunowy</h3>
-                    <p class="recommended_item_infoCode">Kod produktu: CW1.01/11</p>
-                    <p class="recommended_item_infoPrice--old">656,65 zł</p>
-                    <p class="recommended_item_infoPrice--new">442,85 zł</p>
-                </div>
-            </div>
-            <div class="recommended_item">
-                <div class="recommended_item_photo"></div>
-                <div class="recommended_item_info">
-                    <h3>łącznik jednobiegunowy</h3>
-                    <p class="recommended_item_infoCode">Kod produktu: CW1.01/11</p>
-                    <p class="recommended_item_infoPrice--old">656,65 zł</p>
-                    <p class="recommended_item_infoPrice--new">442,85 zł</p>
-                </div>
-            </div>
-            <div class="recommended_item">
-                <div class="recommended_item_photo"></div>
-                <div class="recommended_item_info">
-                    <h3>łącznik jednobiegunowy</h3>
-                    <p class="recommended_item_infoCode">Kod produktu: CW1.01/11</p>
-                    <p class="recommended_item_infoPrice--old">656,65 zł</p>
-                    <p class="recommended_item_infoPrice--new">442,85 zł</p>
-                </div>
-            </div>
-            <div class="recommended_item">
-                <div class="recommended_item_photo"></div>
-                <div class="recommended_item_info">
-                    <h3>łącznik jednobiegunowy</h3>
-                    <p class="recommended_item_infoCode">Kod produktu: CW1.01/11</p>
-                    <p class="recommended_item_infoPrice--old">656,65 zł</p>
-                    <p class="recommended_item_infoPrice--new">442,85 zł</p>
-                </div>
-            </div>
-        </div>
-        <div class="see-inspirations">
-            <p>zobacz wszystkie inspiracje</p>
-        </div>
-    </main>
+                </a>
+                <a href="javascript:void(0)">
+                    <div class="top__shoppingCart">
+                        <div class="shoppingCart__bg">
+                            <div class="shoppingCart__cartIcon icon icon-cart"></div>
+                        </div>
+                        <span>twój koszyk
+                            <p>3456,00 zł</p>
+                        </span>
+                        <div class="shoppingCart__arrowBg">
 
+                        </div>
+                        <div class="shoppingCart__arrowIcon icon-arrow_right"></div>
+                    </div>
+                </a>
+            </div>
+            <nav>
+                <a href="javascript:void(0)">
+                    <div class="nav-item">
+                        <p>źródła światła</p>
+                    </div>
+                </a>
+                <a href="javascript:void(0)">
+                    <div class="nav-item">
+                        <p>oświetlenie wewnętrzne</p>
+                    </div>
+                </a>
+                <a href="javascript:void(0)">
+                    <div class="nav-item">
+                        <p>gniazdka, włączniki</p>
+                    </div>
+                </a>
+                <a href="javascript:void(0)">
+                    <div class="nav-item">
+                        <p>automatyka, sterowanie</p>
+                    </div>
+                </a>
+                <a href="javascript:void(0)">
+                    <div class="nav-item">
+                        <p>rozdzielnie i aparatura</p>
+                    </div>
+                </a>
+                <a href="javascript:void(0)">
+                    <div class="nav-item">
+                        <p>materiały instalacyjne</p>
+                    </div>
+                </a>
+
+            </nav>
+        </header>
+    </div>
     <div class="nav-mobile">
         <a href="javascript:void(0)">
             <div class="nav-mobile-item"><i class="icon-grid"></i></div>
@@ -199,6 +111,7 @@
             <div class="nav-mobile-item"><i class="icon-cart"></i></div>
         </a>
     </div>
+
 
     <script src="./js/index.js"></script>
 </body>
