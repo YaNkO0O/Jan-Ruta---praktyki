@@ -1,105 +1,106 @@
 @media screen and (min-width: 200px) {
-  .container__top {
+  .top {
     display: none;
   }
-  header {
+  .header {
     height: 70px;
   }
-  header .container__logoMobile {
+  .header .container__logoMobile {
     display: block;
+    text-align: center;
     left: 10%;
   }
-  header nav {
+  .header .nav {
     display: none;
   }
 }
 @media screen and (min-width: 430px) {
-  header .container__logoMobile {
+  .header .container__logoMobile {
     left: 20%;
   }
 }
 @media screen and (min-width: 600px) {
-  header .container__logoMobile {
+  .header .container__logoMobile {
     left: 30%;
   }
 }
 @media (min-width: 768px) {
-  .nav-mobile {
+  .mobileNav {
     display: none;
   }
-  .container__top {
+  .top {
     display: block;
   }
-  .container__top .container__logoMobile {
+  .top .container__logoMobile {
     display: none;
   }
-  header {
+  .header {
     height: 140px;
   }
-  header .container__logo {
+  .header .container__logo {
     display: block;
   }
-  header .container__logoMobile {
+  .header .container__logoMobile {
     display: none;
   }
-  header nav {
+  .header .nav {
     display: flex;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1100px) {
-  .container__top {
+  .top {
     display: block;
   }
-  .container__top .icon {
+  .top .icon {
     font-size: 12px;
   }
-  .container__top .top__contact {
+  .top .top__contact {
     top: 35px;
     left: 42%;
   }
-  .container__top .top__contact span {
+  .top .top__contact span {
     font-size: 11px;
   }
-  .container__top .top__favourite {
+  .top .top__favourite {
     top: 35px;
     left: 54%;
   }
-  .container__top .top__favourite span {
+  .top .top__favourite span {
     font-size: 11px;
   }
-  .container__top .top__account {
+  .top .top__account {
     top: 35px;
     left: 66%;
   }
-  .container__top .top__account span {
+  .top .top__account span {
     font-size: 11px;
   }
-  .container__top .top__shoppingCart {
+  .top .top__shoppingCart {
     top: 15px;
     height: 35px;
     width: 190px;
   }
-  .container__top .top__shoppingCart span {
+  .top .top__shoppingCart span {
     font-size: 12px;
   }
-  .container__top .top__shoppingCart .shoppingCart__bg {
+  .top .top__shoppingCart .shoppingCart__bg {
     height: 35px;
     width: 10px;
     right: 150px;
   }
-  .container__top .top__shoppingCart .shoppingCart__bg .shoppingCart__cartIcon {
+  .top .top__shoppingCart .shoppingCart__bg .shoppingCart__cartIcon {
     font-size: 19px;
     left: -25px;
   }
-  .container__top .top__shoppingCart .shoppingCart__arrowIcon {
+  .top .top__shoppingCart .shoppingCart__arrowIcon {
     font-size: 16px;
     left: 171px;
   }
-  .container__top .top__shoppingCart .shoppingCart__arrowBg {
+  .top .top__shoppingCart .shoppingCart__arrowBg {
     height: 35px;
     width: 25px;
   }
-  header nav .nav-item {
+  .header .nav .nav-item {
     font-size: 11px;
   }
 }/*# sourceMappingURL=media.css.map */

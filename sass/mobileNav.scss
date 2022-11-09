@@ -1,4 +1,4 @@
-.nav-mobile {
+.mobileNav {
 	display: flex;
 	position: fixed;
 	align-items: center;
@@ -6,7 +6,7 @@
 	width: 100%;
 	bottom: 0;
 	color: #000;
-	background-color: #e6e6e6;
+	background-color: #fff;
 	z-index: 5;
 	a {
 		text-decoration: none;

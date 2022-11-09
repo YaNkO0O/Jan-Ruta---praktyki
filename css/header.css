@@ -1,9 +1,9 @@
-header {
+.header {
   position: relative;
   margin: 0 auto;
   font-family: "MetropolisB";
 }
-header .container__logo {
+.header .container__logo {
   display: none;
   position: absolute;
   top: 3px;
@@ -12,26 +12,26 @@ header .container__logo {
   height: 58px;
   padding: 5px;
 }
-header .container__logoMobile {
+.header .container__logoMobile {
   display: flex;
 }
-header .container__top {
+.header .top {
   position: relative;
   height: 70px;
   width: 100%;
   margin-top: 10px;
   text-transform: uppercase;
-  border-bottom: 2px solid #e6e6e6;
-  border-top: 2px solid #e6e6e6;
+  border-bottom: 2px solid #E1E2E8;
+  border-top: 2px solid #E1E2E8;
 }
-header a {
+.header a {
   text-decoration: none;
   color: #000;
 }
-header .icon {
+.header .icon {
   font-size: 27px;
 }
-header .top__contact {
+.header .top__contact {
   position: absolute;
   display: flex;
   top: 25px;
@@ -39,13 +39,13 @@ header .top__contact {
   left: 46%;
   transition: 0.3s;
 }
-header .top__contact span {
+.header .top__contact span {
   display: flex;
   align-items: center;
   font-size: 14px;
   margin-left: 10px;
 }
-header .top__favourite {
+.header .top__favourite {
   position: absolute;
   display: flex;
   top: 25px;
@@ -53,13 +53,13 @@ header .top__favourite {
   left: 58%;
   transition: 0.3s;
 }
-header .top__favourite span {
+.header .top__favourite span {
   display: flex;
   align-items: center;
   font-size: 14px;
   margin-left: 10px;
 }
-header .top__account {
+.header .top__account {
   position: absolute;
   display: flex;
   top: 25px;
@@ -67,29 +67,29 @@ header .top__account {
   left: 70%;
   transition: 0.3s;
 }
-header .top__account span {
+.header .top__account span {
   display: flex;
   align-items: center;
   font-size: 14px;
   margin-left: 10px;
 }
-header .top__shoppingCart {
+.header .top__shoppingCart {
   position: absolute;
   top: 10px;
   right: 0;
   height: 45px;
   width: 210px;
-  border: 2px solid #e6e6e6;
+  border: 2px solid #E1E2E8;
   color: #000;
 }
-header .top__shoppingCart .shoppingCart__bg {
+.header .top__shoppingCart .shoppingCart__bg {
   position: absolute;
   right: 168.5px;
   height: 45.8px;
   width: 40px;
-  border-right: 2px solid #e6e6e6;
+  border-right: 2px solid #E1E2E8;
 }
-header .top__shoppingCart .shoppingCart__bg .shoppingCart__cartIcon {
+.header .top__shoppingCart .shoppingCart__bg .shoppingCart__cartIcon {
   position: absolute;
   display: inline-block;
   top: 5px;
@@ -97,29 +97,29 @@ header .top__shoppingCart .shoppingCart__bg .shoppingCart__cartIcon {
   padding: 4px 6px 0 6px;
   font-size: 27px;
 }
-header .top__shoppingCart span {
+.header .top__shoppingCart span {
   position: absolute;
-  left: 44px;
-  top: 5px;
+  left: 50px;
+  top: 3px;
   padding: 4px 3px 0 8px;
   font-size: 14px;
 }
-header .top__shoppingCart span p {
+.header .top__shoppingCart span p {
   position: absolute;
   left: 25px;
   top: 5px;
 }
-header .top__shoppingCart .shoppingCart__arrowBg {
+.header .top__shoppingCart .shoppingCart__arrowBg {
   position: absolute;
   top: 0;
   left: 170px;
   width: 39px;
   height: 46px;
-  border-left: 2px solid #e6e6e6;
-  border-bottom: 2px solid #e6e6e6;
+  border-left: 2px solid #E1E2E8;
+  border-bottom: 2px solid #E1E2E8;
   background-color: #9bcb3b;
 }
-header .top__shoppingCart .shoppingCart__arrowIcon {
+.header .top__shoppingCart .shoppingCart__arrowIcon {
   display: inline-block;
   position: absolute;
   left: 173px;
@@ -129,7 +129,7 @@ header .top__shoppingCart .shoppingCart__arrowIcon {
   padding: 4px 6px 0 6px;
   font-size: 27px;
 }
-header nav {
+.header .nav {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -139,15 +139,15 @@ header nav {
   margin: 0 5px;
   text-transform: uppercase;
   color: #000;
-  border-bottom: 2px solid #e6e6e6;
+  border-bottom: 2px solid #E1E2E8;
 }
-header nav .nav-item {
+.header .nav .nav__item {
   display: flex;
   font-size: 14px;
   transition: color 0.5s, scale 0.5s;
   cursor: pointer;
 }
-header nav .nav-item:hover {
+.header .nav .nav__item:hover {
   color: #2bbe2b;
   scale: 1.1;
 }/*# sourceMappingURL=header.css.map */

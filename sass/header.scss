@@ -1,6 +1,6 @@
 @use "./mixin'y.scss" as size;
 
-header {
+.header {
 	position: relative;
 	.container__logo {
 		display: none;
@@ -16,14 +16,14 @@ header {
 	}
 	margin: 0 auto;
 	font-family: "MetropolisB";
-	.container__top {
+	.top {
 		position: relative;
 		height: 70px;
 		width: 100%;
 		margin-top: 10px;
 		text-transform: uppercase;
-		border-bottom: 2px solid #e6e6e6;
-		border-top: 2px solid #e6e6e6;
+		border-bottom: 2px solid #E1E2E8;
+		border-top: 2px solid #E1E2E8;
 	}
 	a {
 		text-decoration: none;
@@ -73,14 +73,14 @@ header {
 		right: 0;
 		height: 45px;
 		width: 210px;
-		border: 2px solid #e6e6e6;
+		border: 2px solid #E1E2E8;
 		color: #000;
 		.shoppingCart__bg {
 			position: absolute;
 			right: 168.5px;
 			height: 45.8px;
 			width: 40px;
-			border-right: 2px solid #e6e6e6;
+			border-right: 2px solid #E1E2E8;
 			.shoppingCart__cartIcon {
 				position: absolute;
 				display: inline-block;
@@ -92,8 +92,8 @@ header {
 		}
 		span {
 			position: absolute;
-			left: 44px;
-			top: 5px;
+			left: 50px;
+			top: 3px;
 			padding: 4px 3px 0 8px;
 			font-size: 14px;
 			p {
@@ -108,8 +108,8 @@ header {
 			left: 170px;
 			width: 39px;
 			height: 46px;
-			border-left: 2px solid #e6e6e6;
-			border-bottom: 2px solid #e6e6e6;
+			border-left: 2px solid #E1E2E8;
+			border-bottom: 2px solid #E1E2E8;
 			background-color: #9bcb3b;
 		}
 		.shoppingCart__arrowIcon {
@@ -123,7 +123,7 @@ header {
 			font-size: 27px;
 		}
 	}
-	nav {
+	.nav {
 		display: flex;
 		align-items: center;
 		justify-content: space-evenly;
@@ -133,14 +133,14 @@ header {
 		margin: 0 5px;
 		text-transform: uppercase;
 		color: #000;
-		border-bottom: 2px solid #e6e6e6;
-		.nav-item {
+		border-bottom: 2px solid #E1E2E8;
+		.nav__item {
 			display: flex;
 			font-size: 14px;
 			transition: color 0.5s, scale 0.5s;
 			cursor: pointer;
 		}
-		.nav-item:hover {
+		.nav__item:hover {
 			color: #2bbe2b;
 			scale: 1.1;
 		}

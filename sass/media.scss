@@ -1,44 +1,45 @@
 @media screen and(min-width: 200px) {
-	.container__top {
+	.top {
 		display: none;
 	}
-	header {
+	.header {
 		height: 70px;
 		.container__logoMobile {
 			display: block;
+			text-align: center;
 			left: 10%;
 		}
-		nav {
+		.nav {
 			display: none;
 		}
 	}
 }
 @media screen and(min-width: 430px) {
-	header {
+	.header {
 		.container__logoMobile {
 			left: 20%;
 		}
 	}
 }
 @media screen and(min-width: 600px) {
-	header {
+	.header {
 		.container__logoMobile {
 			left: 30%;
 		}
 	}
 }
 @media (min-width: 768px) {
-	.nav-mobile {
+	.mobileNav {
 		display: none;
 	}
-	.container__top {
+	.top {
 		display: block;
 		.container__logoMobile {
 			display: none;
 		}
 	}
 
-	header {
+	.header {
 		height: 140px;
 		.container__logo {
 			display: block;
@@ -46,13 +47,13 @@
 		.container__logoMobile {
 			display: none;
 		}
-		nav {
+		.nav {
 			display: flex;
 		}
 	}
 }
 @media screen and(min-width: 768px) and (max-width: 1100px) {
-	.container__top {
+	.top {
 		display: block;
 		.icon {
 			font-size: 12px;
@@ -104,8 +105,8 @@
 			}
 		}
 	}
-	header {
-		nav {
+	.header {
+		.nav {
 			.nav-item {
 				font-size: 11px;
 			}
