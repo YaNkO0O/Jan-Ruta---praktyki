@@ -7,11 +7,12 @@
     <meta name="viewport" content="width-device-width, initial-scale=1.0" />
     <title>Strona testowa</title>
     <script src="https://kit.fontawesome.com/5639aac7eb.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/fonts.css" />
     <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/homeSlider.css" />
     <link rel="stylesheet" href="./css/mobileNav.css" />
     <link rel="stylesheet" href="./css/hamburger.css" />
-    <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/media.css" />
 </head>
 
@@ -58,7 +59,6 @@
                     <div class="shoppingCart__arrowIcon icon-arrow_right"></div>
                 </div>
             </a>
-
         </div>
 
         <nav class="nav">
@@ -95,7 +95,12 @@
 
         </nav>
     </header>
-    <div class="hamburger">
+    <main>
+            <section class="homeSlider container">
+                <div class="homeSlider__photo"><img src="./img/img_01.jpg" alt=""></div>
+            </section>
+    </main>
+    <section class="hamburger">
         <div class="hamburger__title">elhurt</div>
         <ul>
             <a href="javascript:void(0)">
@@ -111,8 +116,8 @@
                 <li>Koszyk</li>
             </a>
         </ul>
-    </div>
-    <div class="mobileNav">
+    </section>
+    <nav class="mobileNav">
         <a href="javascript:void(0)">
             <div class="mobileNav__item mobileMenu"><i class="icon-grid"></i></div>
         </a>
@@ -128,7 +133,7 @@
         <a href="javascript:void(0)">
             <div class="mobileNav__item"><i class="icon-cart"></i></div>
         </a>
-    </div>
+    </nav>
 
 
     <script src="./js/hamburger.js"></script>
