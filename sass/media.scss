@@ -4,11 +4,6 @@
 	}
 	.header {
 		height: 70px;
-		.container__logoMobile {
-			display: block;
-			text-align: center;
-			left: 10%;
-		}
 		.nav {
 			display: none;
 		}
@@ -16,103 +11,103 @@
 }
 @media screen and(min-width: 430px) {
 	.header {
-		.container__logoMobile {
+		.header__logoMobile {
 			left: 20%;
 		}
 	}
 }
 @media screen and(min-width: 600px) {
 	.header {
-		.container__logoMobile {
+		.header__logoMobile {
 			left: 30%;
 		}
 	}
 }
-@media (min-width: 768px) {
+@media screen and(min-width: 768px) {
 	.mobileNav {
 		display: none;
 	}
 	.top {
-		display: block;
-		.container__logoMobile {
+		display: flex;
+		.header__logoMobile {
 			display: none;
 		}
 	}
-
 	.header {
 		height: 140px;
-		.container__logo {
+		.header__logo {
 			display: block;
 		}
-		.container__logoMobile {
+		.header__logoMobile {
 			display: none;
 		}
 		.nav {
 			display: flex;
 		}
 	}
+	.hamburger {
+		display: none;
+	}
 }
-@media screen and(min-width: 768px) and (max-width: 1100px) {
-	.top {
-		display: block;
-		.icon {
-			font-size: 12px;
-		}
-		.top__contact {
-			top: 35px;
-			left: 42%;
-			span {
-				font-size: 11px;
+@media screen and(min-width: 850px) {
+	.header {
+		.top {
+			.top__row {
+				left: 39%;
 			}
 		}
-		.top__favourite {
-			top: 35px;
-			left: 54%;
-			span {
-				font-size: 11px;
+	}
+}
+@media screen and(min-width: 992px) {
+	.header {
+		.top {
+			.top__row {
+				left: 46%;
 			}
 		}
-		.top__account {
-			top: 35px;
-			left: 66%;
-			span {
-				font-size: 11px;
-			}
-		}
-		.top__shoppingCart {
-			top: 15px;
-			height: 35px;
-			width: 190px;
-			span {
-				font-size: 12px;
-			}
-			.shoppingCart__bg {
-				height: 35px;
-				width: 10px;
-				right: 150px;
-				.shoppingCart__cartIcon {
-					font-size: 19px;
-					left: -25px;
+	}
+}
+@media screen and(min-width: 1150px) {
+	.header {
+		.top {
+			.top__row {
+				width: 400px;
+				left: 47%;
+				.top__contact{
+					span{
+						font-size: 14px;
+					}
+				}
+				.top__favourite{
+					span{
+						font-size: 14px;
+					}
+				}
+				.top__account{
+					left: 60%;
+					span{
+						font-size: 14px;
+					}
 				}
 			}
-			.shoppingCart__arrowIcon {
-				font-size: 16px;
-				left: 171px;
-			}
-			.shoppingCart__arrowBg {
-				height: 35px;
-				width: 25px;
-			}
 		}
 	}
+}
+@media screen and(min-width: 1400px) {
 	.header {
-		.nav {
-			.nav-item {
-				font-size: 11px;
+		.top {
+			.top__row {
+				left: 57%;
 			}
 		}
 	}
 }
-
-@media screen and(min-width: 992px) {
+@media screen and(min-width: 1700px) {
+	.header {
+		.top {
+			.top__row {
+				left: 65%;
+			}
+		}
+	}
 }
