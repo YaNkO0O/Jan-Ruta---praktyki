@@ -1,3 +1,5 @@
-.homeSlider__photo img {
+.homeSlider .homeSlider__photo img {
   width: 100%;
-}/*# sourceMappingURL=homeSlider.css.map */
+}
+
+/*# sourceMappingURL=homeSlider.css.map */

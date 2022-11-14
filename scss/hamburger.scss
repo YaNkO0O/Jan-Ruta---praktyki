@@ -1,5 +1,5 @@
-@use "./center" as center;
-@use "colors" as color;
+@use "./_mixins" as center;
+@use "./variables" as color;
 .hamburger__container {
 	max-width: 70%;
 }
